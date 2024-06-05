@@ -1,0 +1,79 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: url('https://st2.depositphotos.com/27201292/46894/i/450/depositphotos_468948592-stock-photo-vertical-shot-cheering-crowd-dancing.jpg') no-repeat center center;
+    background-size: cover;
+   
+}
+
+.audio-player {
+    background: #fff;
+    padding: 20px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#album-cover {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.song-info {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.song-info h2, .song-info h3 {
+    margin: 5px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.btn {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.volume-container, .progress-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.volume-container label, .progress-container span {
+    margin-right: 10px;
+}
+
+.volume-container input, .progress-container input {
+    width: 100%;
+}
+
+.lyrics-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lyrics-container p {
+    font-size: 21px;
+    line-height: 1.5;
+}
